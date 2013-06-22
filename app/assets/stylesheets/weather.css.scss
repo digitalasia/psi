@@ -1,0 +1,81 @@
+// Place all the styles related to the Weather controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$green:#2ecc71;
+$yellow:#f1c40f;
+$orange:#d35400;
+$notgood:#e74c3c;
+$harzard:#C0392B;
+$danger:#2c3e50;
+
+.box
+{
+	width:20px;
+	height:20px;
+	border:1px solid #d1d1d1;
+}
+.colored
+{
+	background: black;
+}
+
+.bigger
+{
+	font-size:20px;
+}
+
+.center
+{
+	width:320px;
+	height:600px;
+	margin:0 auto;
+	text-align:center;
+	margin-top:40px;
+}
+
+body
+{
+	background: $orange;
+	color:white;
+}
+
+#answer
+{
+	font-size:150px;
+	height:200px;
+	line-height:150px;
+}
+
+ .chart div {
+   font: 10px sans-serif;
+   background-color: steelblue;
+   text-align: right;
+   padding: 3px;
+   margin: 1px;
+   color: white;
+ }
+
+ .small
+ {
+ 	font-size:18px;
+ }
+
+.margin_top_20
+{
+	margin-top:-80px;
+}
+
+.margin_left_10
+{
+	margin-left:50px;
+}
+
+.margin_top_40
+{
+	margin-top:-140px;
+}
+ .float_left
+ {
+ 	float:left;
+ }
